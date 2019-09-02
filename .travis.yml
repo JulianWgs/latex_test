@@ -10,6 +10,7 @@ deploy:
   api_key:
     secure: PPCo9ZmFTqRnSCl47wSS0EsSYhxMrsSqV/bRQtMxDn/VyeZ3WJtnBJLDVRfV1DxATCeZMGdUK0XqRQ8+MprQwmdHOPvCF68Yx0sf93keCRuyO13RN93qAAQD6yrYBJxNm/RKAr2/oY4hs2aVAK/ZmKOeeAMJtQZRNZ9YSQfWWVBRo9tLEeQlx0dWap1Y/q7OZvQJ6yHxTkobhzhIuVNnE9AjW/Q43T1S6PZzXAM3zA7uJYJ+kk2pEtryG4ktaVwqQEaAhmUOC0fqWzIwZMD0T9ULEf8PSG6stm8XpaMFmr+8YOFk/jn8xXSb5/3M1Go5T2pb+3Ma2LQeBhfYQygAkZeBIWayWInYJwXc41X8wsGcYRYNOIvQ57Utgu18QyrTY8Rie1AW3qOei/5oe2kOUF45v+bG+XVGbIzsLg2nEsqADkoIitsTXhEd5Jiky5uwJ1ak9MCOHZPUkDmNje5AC52taFD1AahMktubw3OaeVYbgMBez6S6tBNw2Le/R7M98uYpEelEcf0k9YBG0SnuMgwy3ks5n2s1Eo959c6gdmoErDFnL+/CKkHPbBO65dr/W2YAdy8JJ02uYza8Umr6lyE5cg6L+bEt2iS4tXMp3aOSIRg932imH1qudjVtJmL4NSAhXzQky/lKgkomT5wtDAnX15/rzM3H8KIOt31ajN0=
   file: main.pdf
+  skip_cleanup: true
   on:
     repo: JulianWgs/latex_test
     tags: true
